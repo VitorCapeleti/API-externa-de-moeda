@@ -6,7 +6,6 @@
 
 Um dashboard web simples desenvolvido em Python com o micro-framework Flask. A aplicação consome em tempo real os dados de uma API externa de criptomoedas e os exibe de forma organizada e amigável.
 
-![Print da Aplicação](httpsd://i.imgur.com/link-para-seu-print.png)
 
 ---
 
