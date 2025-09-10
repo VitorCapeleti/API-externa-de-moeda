@@ -1,0 +1,14 @@
+# Framework principal da aplicação web
+Flask==3.0.3
+
+# Integração de formulários com o Flask
+Flask-WTF==1.2.1
+
+# Biblioteca para fazer requisições HTTP (para a API de cripto)
+requests==2.32.3
+
+# Biblioteca para criação e validação de formulários (dependência do Flask-WTF)
+WTForms==3.1.2
+
+# (Opcional, mas recomendado) Ferramenta para carregar variáveis de ambiente de um arquivo .env
+python-dotenv==1.0.1
