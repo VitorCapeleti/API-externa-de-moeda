@@ -1,0 +1,56 @@
+:root{
+    --primary-color: #ee7300;
+    --header-color: #ffffff;
+    --background-color: #e29751;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color: var(--header-color);
+    padding: 10px;
+    font-family: Helvetica;
+}
+main {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--header-color);
+    width: 50%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove o espaço entre as bordas das células */
+    table-layout: fixed; /* Ajuda a manter as colunas do mesmo tamanho */
+}
+
+th, td {
+    padding: 15px 10px 20px 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+thead th {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+}

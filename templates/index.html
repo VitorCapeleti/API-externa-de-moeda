@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Visor de Moedas</title>
+</head>
+<body>
+    <header>
+        <h1>Visor de Moedas</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Dados das Moedas</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="title">Moeda</th>
+                        <th class="title">Valor em USD</th>
+                        <th class="title">Valor em EUR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for coin, info in data.items() %}
+                        <tr>
+                            <td><strong>{{ coin }}</strong></td>
+                            <td>{{ info.usd }}</td>
+                            <td>{{ info.eur }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
